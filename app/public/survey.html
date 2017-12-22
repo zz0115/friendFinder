@@ -9,7 +9,9 @@
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/c9c44f7d24.js"></script>
-
+    <!-- chosen library cdn to style the options -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.2/chosen.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.2/chosen.jquery.min.js"></script>
 </head>
 
 <body style="margin: 10px; background-color:antiquewhite">
@@ -27,134 +29,216 @@
         <div class="form-group">
             <h2><strong>Question 1</strong></h2>
             <h3 for="question1">When you wake up in the morning, you always feel energetic.</h3>
-            <select class="custom-select" id="question1">
-                <option selected>Select an Option</option>
-                <option>1 (Strongly Disagree)</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5 (Strongly Agree)</option>
+            <select class="chosen-select" id="question1">
+                <option value="">Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
               </select>
         </div>
         <div class="form-group">
             <h2><strong>Question 2</strong></h2>
-            <h3 for="question1">When you hear people's misfortune, even people you don't know, you feel empathetic.</h3>
-            <select class="custom-select" id="question1">
-                    <option selected>Select an Option</option>
-                    <option>1 (Strongly Disagree)</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5 (Strongly Agree)</option>
+            <h3 for="question2">When you hear people's misfortune, even people you don't know, you feel empathetic.</h3>
+            <select class="chosen-select" id="question2">
+                    <option value="">Select an Option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
                   </select>
         </div>
         <div class="form-group">
             <h2><strong>Question 3</strong></h2>
-            <h3 for="question1">Some people say, "Perfect life is happy life." Do you agree?</h3>
-            <select class="custom-select" id="question1">
-                <option selected>Select an Option</option>
-                <option>1 (Strongly Disagree)</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5 (Strongly Agree)</option>
+            <h3 for="question3">Some people say, "Perfect life is happy life." Do you agree?</h3>
+            <select class="chosen-select" id="question3">
+                <option value="">Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
               </select>
         </div>
         <div class="form-group">
             <h2><strong>Question 4</strong></h2>
-            <h3 for="question1">You are sure about your future.</h3>
-            <select class="custom-select" id="question1">
-                    <option selected>Select an Option</option>
-                    <option>1 (Strongly Disagree)</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5 (Strongly Agree)</option>
+            <h3 for="question4">You are sure about your future.</h3>
+            <select class="chosen-select" id="question4">
+                    <option svalue="">Select an Option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
                   </select>
         </div>
         <div class="form-group">
             <h2><strong>Question 5</strong></h2>
-            <h3 for="question1">You feel satisfied with your current life.</h3>
-            <select class="custom-select" id="question1">
-                <option selected>Select an Option</option>
-                <option>1 (Strongly Disagree)</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5 (Strongly Agree)</option>
+            <h3 for="question5">You feel satisfied with your current life.</h3>
+            <select class="chosen-select" id="question5">
+                <option value="">Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
               </select>
         </div>
         <div class="form-group">
             <h2><strong>Question 6</strong></h2>
-            <h3 for="question1">You like talking about other people when you chat with your friends.</h3>
-            <select class="custom-select" id="question1">
-                    <option selected>Select an Option</option>
-                    <option>1 (Strongly Disagree)</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5 (Strongly Agree)</option>
+            <h3 for="question6">You like talking about other people when you chat with your friends.</h3>
+            <select class="chosen-select" id="question6">
+                    <option value="">Select an Option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
                   </select>
         </div>
         <div class="form-group">
             <h2><strong>Question 7</strong></h2>
-            <h3 for="question1">You think you are handsome/pretty in other people's eyes.</h3>
-            <select class="custom-select" id="question1">
-                <option selected>Select an Option</option>
-                <option>1 (Strongly Disagree)</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5 (Strongly Agree)</option>
+            <h3 for="question7">You think you are handsome/pretty in other people's eyes.</h3>
+            <select class="chosen-select" id="question7">
+                <option value="">Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
               </select>
         </div>
         <div class="form-group">
             <h2><strong>Question 8</strong></h2>
-            <h3 for="question1">You feel you have a great childhood.</h3>
-            <select class="custom-select" id="question1">
-                    <option selected>Select an Option</option>
-                    <option>1 (Strongly Disagree)</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5 (Strongly Agree)</option>
+            <h3 for="question8">You feel you have a great childhood.</h3>
+            <select class="chosen-select" id="question8">
+                    <option value="">Select an Option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
                   </select>
         </div>
         <div class="form-group">
             <h2><strong>Question 9</strong></h2>
-            <h3 for="question1">Your friends always come visit you.</h3>
-            <select class="custom-select" id="question1">
-                <option selected>Select an Option</option>
-                <option>1 (Strongly Disagree)</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5 (Strongly Agree)</option>
+            <h3 for="question9">Your friends always come visit you.</h3>
+            <select class="chosen-select" id="question9">
+                <option value="">Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
               </select>
         </div>
         <div class="form-group">
             <h2><strong>Question 10</strong></h2>
-            <h3 for="question1">You think you are a good listener.</h3>
-            <select class="custom-select" id="question1">
-                    <option selected>Select an Option</option>
-                    <option>1 (Strongly Disagree)</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5 (Strongly Agree)</option>
+            <h3 for="question10">You think you are a good listener.</h3>
+            <select class="chosen-select" id="question10">
+                    <option value="">Select an Option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
                   </select>
         </div>
-        <button style="margin-bottom: 15px; opacity: 0.8;" type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check" aria-hidden="true"></i>Submit</button>
+        <button style="margin-bottom: 15px; opacity: 0.8;" type="button" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check" aria-hidden="true"></i>Submit</button>
     </form>
+
     <div style="border-top-style: solid; border-color:darkgray; border-width: 1px; padding-top: 10px;">
-        <a href="/api/tables"> API Friend List</a> |
-        <a href="/api/waitlist"> GitHub Repo</a>
+        <a href="/api/friends"> API Friend List</a> |
+        <a href="#"> GitHub Repo</a>
+    </div>
+    <div id="resultsModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h2 class="modal-title"><strong>Best Match</strong></h2>
+                </div>
+                <div class="modal-body">
+                    <h2 id="matchName"></h2>
+                    <img id="matchImg" src="https://i.pinimg.com/736x/86/55/0d/86550d67399c902bafeebc4495c255ef--baby-panda-bears-panda-babies.jpg"
+                        alt="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
     </div>
 
+
+
+    <script type="text/javascript">
+        //Chosen CSS
+        var config = {
+            ".chosen-select": {},
+            ".chosen-select-deselect": { allow_single_deselect: true },
+            ".chosen-select-no-single": { disable_search_threshold: 10 },
+            ".chosen-select-no-results": { no_result_text: "Oops, nothing found!" },
+            ".chosen-select-width": { width: "95%" }
+        };
+
+        for (var selector in config) {
+            $(selector).chosen(config[selector]);
+        }
+        $("#submit").on("click", function () {
+            // event.preventDefault();
+            //review
+            function validateForm() {
+                var isValid = true;
+                $(".form-control").each(function () {
+                    if ($(this).val() === "") {
+                        isValid = false;
+                    }
+                });
+                $(".chosen-select").each(function () {
+                    if ($(this).val() === "") {
+                        isValid = false;
+                    }
+                });
+                return isValid;
+            }
+
+            if (validateForm()) {
+                var userData = {
+                    name: $("#userName").val().trim(),
+                    photo: $("#userPhoto").val().trim(),
+                    scores: [
+                        $("#question1").val(),
+                        $("#question2").val(),
+                        $("#question3").val(),
+                        $("#question4").val(),
+                        $("#question5").val(),
+                        $("#question6").val(),
+                        $("#question7").val(),
+                        $("#question8").val(),
+                        $("#question9").val(),
+                        $("#question10").val()
+                    ]
+                }
+                console.log(userData);
+                //grab the URL of the website
+                var currentURL = window.location.origin;
+                $.post(currentURL + "/api/friends", userData, function (data) {
+                    //data is getting from the backend result
+                    $("#matchName").text(data.name);
+                    $("#matchImg").attr("src", data.photo);
+                    //show modal with best match
+                    $("#resultsModal").modal("toggle");
+
+                })
+            }
+            else {
+                alert("Please fill out all the information...");
+            }
+        });
+    </script>
 </body>
-
-<script type="text/javascript">
-
-</script>
 
 </html>
